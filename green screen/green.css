@@ -1,0 +1,19 @@
+
+*{
+    background-color:lightblue;
+}
+    canvas {
+      border: 5px solid;
+      border-color:darkblue;
+      height: 230px;
+    }
+    input
+    {
+    font-size:20px;
+    padding:12px solid;
+    }
+    .btn1{
+    box-shadow:2px 2px blue;
+    border:1px solid blue;
+    border-radius:20px;
+    height:25px;}

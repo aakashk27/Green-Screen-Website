@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Screen Webpage</title>
+    <link rel="stylesheet" href="green.css"/>
+</head>
+<body>
+
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+  <h1>GREEN SCREEN BACKGROUND CHANGER</h1>
+  <h2>Please upload your image</h2>
+<canvas id = "fgcan">
+</canvas>
+<canvas id = "bgcan">
+</canvas>
+
+<p>
+Upload foreground image here <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="fImage()" >
+</p>
+
+<p>
+Upload background image here <input type="file" multiple="false" accept="image/*" id="bgfile" onchange="bImage()" >
+</p>
+
+<p>
+<input type="button" 
+class="btn1" 
+       value="Create Composite" onclick="doGreenScreen()" >
+<input type="button" class="btn1" value="Clear Canvases" onclick="clearCanvas()" >
+</p>
+<br>
+<br>
+<script src="green.js"></script>
+</body>
+</html>
